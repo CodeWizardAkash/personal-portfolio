@@ -44,7 +44,7 @@ const Navbar = () => {
         </h1>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-10">
+        <ul className="hidden  md:flex   gap-10">
           {sections.map((sec) => (
             <li key={sec}>
               <a href={`#${sec}`} className={linkClass(sec)}>
@@ -56,7 +56,7 @@ const Navbar = () => {
 
         {/* Mobile Button */}
         <button
-          className="md:hidden text-white text-3xl"
+          className="md:hidden text-white text-3xl flex gap-2"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? "✕" : "☰"}
@@ -65,7 +65,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-black/95 px-6 py-6 space-y-6">
+        <div className="md:hidden flex  flex-col px-6 py-6 space-y-6">
           {sections.map((sec) => (
             <a
               key={sec}

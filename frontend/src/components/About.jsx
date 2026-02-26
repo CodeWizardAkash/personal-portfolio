@@ -10,6 +10,9 @@ const About = () => {
     "Express",
     "MongoDB",
     "Tailwind CSS",
+    "python",
+    "AI/ML",
+    "C++",
     "Blender",
     "Unity",
   ];

@@ -19,11 +19,11 @@ const Hero = () => {
           <img
             src={profilePhoto}
             alt="Akash Majhi"
-            className="relative w-56 sm:w-64 md:w-72 lg:w-80 drop-shadow-2xl"
+            className="relative w-95 mb-4 sm:w-64 md:w-140 lg:w-150 drop-shadow-2xl"
           />
 
           {/* Smoke / fade */}
-          <div className="absolute bottom-0 w-64 sm:w-72 md:w-80 h-28 bg-gradient-to-t from-black via-black/75 to-transparent blur-sm"></div>
+          <div className="absolute bottom-0 w-64 sm:w-72 md:w-80 lg:w-150 h-28 bg-gradient-to-t from-black via-black/75 to-transparent blur-sm"></div>
         </div>
 
         {/* Text Content */}
